@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message NumberRequest {
+  float value = 1;
+}
+
+message NumberResponse {
+  float value = 1;
+}
+
+service Calculator {
+  rpc SquareRoot (NumberRequest) returns (NumberResponse) {
+  }
+}

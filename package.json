@@ -22,7 +22,9 @@
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "google-protobuf": "^3.6.1",
+    "grpc-web": "^1.0.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
@@ -43,6 +45,9 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
+    "typescript": "~3.2.2",
+    "browserify": "^16.2.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
   }
 }
